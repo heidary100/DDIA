@@ -95,9 +95,9 @@ Moving away from a single-node system introduces the following engineering chall
 *   **Operational Infrastructure Overhead:** Each new service requires its own **infrastructure for deployment, health monitoring, log collection, and alerting**, creating a massive increase in operational surface area.
 *   **Serverless Constraints:** Adopting serverless/FaaS models introduces unique bottlenecks, including **slow "cold start" times** when functions are first invoked and strict limits on runtime environments and execution duration.
 
-*   ---
+---
 
-*   ### The Regulatory Constraint
+### The Regulatory Constraint
 
 *   **Data residency laws** may mandate that information about citizens of a specific jurisdiction be stored and processed geographically within that country, technically necessitating a **distributed architecture** over a centralized one.
 *   Privacy regulations like the **GDPR** grant individuals a "**right to be forgotten**," which creates a direct conflict with data systems built on **immutable append-only logs**.
